@@ -5,21 +5,30 @@ import no.hvl.dat100.oppgave1.*;
 
 public class Blogg {
 
-	// TODO: objektvariable 
+	private int[] innleggTabell;
+
+    private int nesteledig;
 
 	public Blogg() {
-		throw new UnsupportedOperationException(TODO.constructor("Blogg"));
+
+        throw new UnsupportedOperationException(TODO.constructor("Blogg"));
+
 	}
 
 	public Blogg(int lengde) {
-		throw new UnsupportedOperationException(TODO.constructor("Blogg"));
+
+        throw new UnsupportedOperationException(TODO.constructor("Blogg"));
+
 	}
 
 	public int getAntall() {
-		throw new UnsupportedOperationException(TODO.method());
+
+        throw new UnsupportedOperationException(TODO.method());
+
 	}
 	
 	public Innlegg[] getSamling() {
+
 		throw new UnsupportedOperationException(TODO.method());
 
 	}
@@ -27,13 +36,17 @@ public class Blogg {
 	public int finnInnlegg(Innlegg innlegg) {
 
 		throw new UnsupportedOperationException(TODO.method());
+
 	}
 
 	public boolean finnes(Innlegg innlegg) {
-		throw new UnsupportedOperationException(TODO.method());
+
+        throw new UnsupportedOperationException(TODO.method());
+
 	}
 
 	public boolean ledigPlass() {
+
 		throw new UnsupportedOperationException(TODO.method());
 
 	}
@@ -41,10 +54,13 @@ public class Blogg {
 	public boolean leggTil(Innlegg innlegg) {
 
 		throw new UnsupportedOperationException(TODO.method());
+
 	}
 	
 	public String toString() {
-		throw new UnsupportedOperationException(TODO.method());
+
+        throw new UnsupportedOperationException(TODO.method());
+
 	}
 
 	// valgfrie oppgaver nedenfor

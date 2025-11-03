@@ -25,11 +25,14 @@ public class Tekst extends Innlegg {
 	}
 
 	public void setTekst(String tekst) {
-		throw new UnsupportedOperationException(TODO.method());
+
+        throw new UnsupportedOperationException(TODO.method());
+        
 	}
 
 	@Override
 	public String toString() {
+
 		throw new UnsupportedOperationException(TODO.method());
 
 	}

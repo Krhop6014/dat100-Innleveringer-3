@@ -63,19 +63,43 @@ public class Blogg {
 
 	public boolean ledigPlass() {
 
-		throw new UnsupportedOperationException(TODO.method());
+        if (nesteLedig < innleggtabell.length) {
+            return true;
+        } else {
+            return false;
+        }
+
+        //return nesteLedig < innleggtabell.length //
 
 	}
 	
 	public boolean leggTil(Innlegg innlegg) {
 
-		throw new UnsupportedOperationException(TODO.method());
+       if(finnes(innlegg)){
+           return false;
+       }
+
+       if(!ledigPlass()){
+           return false;
+       }
+
+       innleggtabell[nesteLedig] = innlegg;
+
+       nesteLedig++;
+
+       return true;
 
 	}
 	
 	public String toString() {
 
-        throw new UnsupportedOperationException(TODO.method());
+        String tilStreng = getAntall() + "\n";
+
+        for(int i = 0; i < nesteLedig; i++){
+            tilStreng += innleggtabell[i].toString();
+        }
+
+        return tilStreng;
 
 	}
 
